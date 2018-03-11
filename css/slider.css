@@ -1,0 +1,48 @@
+		.banner{margin-bottom: 10px;/*margin-top: 0 !important*/}
+		.slider{
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+			position: relative;
+
+		}
+		.slider:hover #pre{display: block;}
+		.slider:hover #next{display: block;}
+		.slider #img{
+			list-style-type: none;
+			width:10000000px;
+
+
+		}
+		.slider #img:after{
+			content: " ";
+			display: table;
+			clear: both;
+		}
+		.slider ul{padding:0;}
+		.slider #img li{
+			width: auto;
+			height: auto;
+			line-height: 300px;
+			text-align: center;
+			float: left;
+			z-index: 99;
+
+		}
+		.slider #img li img{
+			width: auto;
+			height: auto;
+		}
+		/*#pre{position: absolute; left: 10px;top: 150px;cursor: pointer; display: none;}
+		#next{position: absolute;right: 10px;  top:150px;cursor: pointer; display: none;}*/
+		#icon{position: absolute;left: 48%; bottom: 10px;list-style-type: none;}
+		#icon li{box-sizing: border-box;border: 1px solid #ededed;display: inline-block;border-radius: 100%;cursor: pointer;background: rgba(128,128,128,0.5);margin-left: 5px;width: 14px;height: 14px;}
+		#icon .active{background: #bd0103;border: 1px solid white;}
+
+		/**/
+		#gioi-thieu{margin-bottom: 30px}
+		.column-left,.column-center,.column-right{}
+		.column-left a,.column-center a,.column-right a{overflow: hidden;text-align: center;width: 100%;display: block;transition: all 1s;}
+		/*.column-center .img-top{height: 55%}*/
+		.column-center .img-bottom img{vertical-align: bottom;margin-top: 5px}
+		.column-left a:hover img,.column-center a:hover img,.column-right a:hover img{opacity: 0.8}

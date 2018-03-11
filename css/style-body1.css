@@ -1,0 +1,39 @@
+.product-body{margin-top: 20px;text-align: center;}
+.product-body .title-product{background: url(../image/icon/c1.gif) repeat-x left center;position: relative;height: 44px;line-height: 44px;text-align: center;}
+.product-body .title-product .left{display: inline-block;margin: 5px 0;padding: 0 15px;background: white}
+.product-body .title-product .left h2{margin: 0;padding: 0 25px;background: url(../image/icon/c.gif) no-repeat left center,#fff url(../image/icon/c.gif) no-repeat right center;}
+.product-body .title-product .left h2 a{color: #000;font-family: "Open Sans Bold";font-weight: 700;font-size: 26px;text-transform: uppercase;}
+.product-body .title-product .right{position: absolute;top: 0;right: 0;padding-right: 15px;padding-left: 10px;background: #fff url(../image/icon/i1.gif) no-repeat right center;}
+.product-body .title-product .right a{margin-right: 5px;color: #333}
+
+.product-body .title-product .right a:hover{color: #bd0103}
+/*.title-quannam .left h2 a:hover, .title-quannam .right a:hover{color: #bd0103}*/
+
+.page-button{text-align: center;}
+.page-button .next,.page-button .pre{display: inline-block;height: 35px;width: 35px;border-radius: 100%;transition: all 0.3s}
+.page-button .pre{background-image: url(../image/icon/pre.png);}
+.page-button .next{background-image: url(../image/icon/next.png);margin-left: 5px}
+.page-button .next:hover,.page-button .pre:hover{background-position: 0 bottom;cursor: pointer;}
+
+
+
+.body .width{overflow: hidden;}
+.body .wapper{width: 9000000px;}
+.body .wapper .item{float: left;padding: 0 15px;box-sizing: border-box;}
+.body .wapper .item .khung-img{padding: 7px;box-sizing: border-box;border: 1px solid white;}
+.body .wapper .item .khung-img:hover{border: 1px solid #ededed}
+.body .wapper .item .name{margin-top: 10px}
+.body .wapper .item .name a{color: #333;text-transform: uppercase;text-decoration: none;cursor: pointer;font-size: 16px;font-family:"Open Sans Bold";font-weight: 700}
+.body .wapper .item .name a:hover{color: #bd0103}
+.body .wapper .item .price{font-family:Montserrat ;color: #bd0103;font-size: 18px;font-weight: 700;margin-top: 5px}
+.body .wapper .item .img{width: 100%;cursor: pointer;}
+.body .wapper .item .item-img{position: relative;overflow: hidden;}
+.body .wapper .item .item-img:hover .img_1{left: 0;opacity: 1}
+.body .wapper .item .img_1{cursor: pointer;position: absolute;top: 0;left: 100%;z-index: 2;width: 100%;opacity: 0;transition: all 0.3s}
+
+.button-product{margin-top: 10px}
+.button-product .cart,.button-product .see{background: #333;text-decoration: none;display: inline-block;padding:5px 10px 5px 5px;}
+.button-product .cart i,.button-product .see i{color: white;padding-right: 5px;border-right: 1px solid #ededed;margin-right: 5px;font-size: 13px}
+.button-product .cart span,.button-product .see span{color: #ededed;font-size: 13px}
+.button-product .see{margin-left: 10px}
+.button-product .see:hover,.button-product .cart:hover{background: #bd0103}

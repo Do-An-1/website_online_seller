@@ -1,0 +1,103 @@
+
+	 .see-product{padding: 10px 0;background: #c73232;}
+	 .see-product .container-see{margin-top: 20px}
+	 .see-product .slider{width: 100%;overflow: hidden;position: relative;}
+	 .see-product .slider .img-slider{width: 90000px}
+	 .see-product .slider .img-slider .item-img{float: left;}
+
+	 .see-product .back,.see-product .next{cursor: pointer;transition: background .3s;position: absolute;padding: 10px 15px;background: white;top: 50%;}
+	 .see-product .next{right: 10px;}
+	 .see-product .back{left: 10px;}
+	 .see-product .back:hover,.see-product .next:hover{background: black;color: white}
+
+	 .see-product .owl-item{margin-top: 20px;overflow: hidden;}
+	 .see-product .owl-item .owl-item-synced{width: 90000px}
+	 .see-product .owl-item .owl-item-synced .item{cursor: pointer;float: left;padding-right: 10px;box-sizing: border-box;opacity: 0.7}
+	 .see-product .owl-item .owl-item-synced .item:last-child{padding-right: 0}
+	 .active{opacity: 1 !important}
+
+	 .see-product .right h1{color: white;font-weight: 700;text-transform: uppercase;font-family: Raleway,Lato,sans-serif;}
+	 .see-product .right .price{font-size: 28px;font-weight: 700;color: white;font-family: Montserrat}
+	 .see-product .right .stock{font-size: 19px;color: white;margin-top: 10px;border-left: 10px solid #ff7f00;box-sizing: border-box;padding-left: 10px}
+	 .see-product .right #quickBuyHighlight{color: white;font-family: Raleway;font-size: 15px}
+	 .see-product .right .select{font-family: Raleway;;background: #ededed;width: 100%;border: none;height: 30px;padding-left: 10px;box-sizing: border-box;}
+	 .see-product .right .option1{padding-right: 15px}
+
+	 .see-product .right .button-buy,.see-product .right .button-cart{margin-top: 20px;margin-bottom: 30px;padding-left: 0}
+	 .see-product .right .button-buy .dk-mua,.see-product .right .button-cart .dk-mua  {transition: all 0.3s;font-size: 15px;font-family: Raleway;box-sizing: border-box;padding:15px 30px;text-transform: uppercase;color: #fff;background: #ff7f00;border-bottom: 2px solid #970000;cursor: pointer; }
+	 .see-product .right .button-buy .dk-mua span,.see-product .right .button-cart .dk-mua span{margin-right: 10px}
+	 .see-product .right .button-buy .dk-mua:hover,.see-product .right .button-cart .dk-mua:hover{background: #444}
+
+	 .see-product .right .diachi{color: #fff;border-left: 10px solid #CCC;padding-left: 15px;box-sizing: border-box;}
+	 .see-product .right .diachi h6{font-weight: 700;font-size: 15px;text-transform: uppercase;}
+	 .see-product .right .diachi ul{font-size: 14px; font-family: Raleway;padding-left: 15px}
+
+	 .see-product .right .cam-ket{color: #444;font-size: 16px;padding: 10px 6px;background: white;font-style: italic;font-family: Raleway}
+	 .see-product .right .cam-ket .info { font-weight: 700;}
+	  .see-product .right .cam-ket .info i{color: #bd0103;margin-right: 5px}
+
+	
+	.product-list{background: url(../image/icon/c1.gif) repeat-x left center;position: relative;height: 44px;line-height: 44px;text-align: center;}
+	.product-list .left{display: inline-block;margin: 5px 0;padding: 0 15px;background: white}
+	.product-list .left h2{margin: 0;padding: 0 25px;background: url(../image/icon/c.gif) no-repeat left center,#fff url(../image/icon/c.gif) no-repeat right center;}
+	.product-list .left h2 a{color: #000;font-family: Arial;font-weight: 700;font-size: 26px;text-transform: uppercase;}
+	.product-list .right{position: absolute;top: 0;right: 0;padding-right: 15px;padding-left: 10px;background: #fff url(../image/icon/i1.gif) no-repeat right center;}
+	.product-list .right a{margin-right: 5px;color: #333}
+
+	.product-list .left h2 a:hover{color: #bd0103}
+	.product-list .right a:hover{color: #bd0103}
+	.page-button{text-align: center;}
+	.page-button .next,.page-button .pre{display: inline-block;height: 35px;width: 35px;border-radius: 100%;transition: all 0.3s}
+	.page-button .pre{background-image: url(../image/icon/pre.png);}
+	.page-button .next{background-image: url(../image/icon/next.png);margin-left: 5px}
+	.page-button .next:hover,.page-button .pre:hover{background-position: 0 bottom;cursor: pointer;}
+
+	.width{overflow: hidden;}
+	.wapper{width: 9000000px;}
+	.wapper .item{float: left;padding: 0 15px;box-sizing: border-box;}
+	.wapper .item .khung-img{padding: 7px;box-sizing: border-box;border: 1px solid white;}
+	.wapper .item .khung-img:hover{border: 1px solid #ededed}
+	.wapper .item .name{margin-top: 10px}
+	.wapper .item .name a{color: #333;text-transform: uppercase;text-decoration: none;cursor: pointer;font-size: 16px;font-family:Raleway;font-weight: 700}
+	.wapper .item .name a:hover{color: #bd0103}
+	.wapper .item .price{font-family:Montserrat ;color: #bd0103;font-size: 18px;font-weight: 700;margin-top: 5px}
+	.wapper .item .img{width: 100%;cursor: pointer;}
+	.wapper .item .item-img{position: relative;overflow: hidden;}
+	.wapper .item .item-img:hover .img_1{left: 0;opacity: 1}
+	.wapper .item .img_1{cursor: pointer;position: absolute;top: 0;left: 100%;z-index: 2;width: 100%;opacity: 0;transition: all 0.3s}
+
+	.button-product{margin-top: 10px}
+	.button-product .cart,.button-product .see{background: #333;text-decoration: none;display: inline-block;padding:5px 10px 5px 5px;}
+	.button-product .cart i,.button-product .see i{color: white;padding-right: 5px;border-right: 1px solid #ededed;margin-right: 5px;font-size: 13px}
+	.button-product .cart span,.button-product .see span{color: #ededed;font-size: 13px}
+	.button-product .see{margin-left: 10px}
+	.button-product .see:hover,.button-product .cart:hover{background: #bd0103}
+
+	 .dat-hang {transition: all 0.5s;z-index: 99999999999999999999;position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: rgba(0,0,0,0.8);}
+	 .dat-hang .modal-dathang{width: 600px;transition: all .5s ;opacity:0;margin-top: -350px;margin-left: auto;margin-right:auto;position: relative;overflow: hidden;box-sizing: border-box;height: 350px;padding-top: 15px;padding-bottom: 15px;background: white;}
+	 .dat-hang .modal-dathang .name-dt{font-family: "Roboto Condensed";font-size: 16px;color: #333;font-weight: 700;cursor: default;margin-bottom: -15px}
+
+	 .dat-hang .modal-dathang .price-dt{color: #bd0103;font-size: 29px;font-weight: bold}
+	 .dat-hang .modal-dathang .select{font-family: Raleway;background: #ededed;width: 100%;border: none;height: 30px;padding-left: 10px;box-sizing: border-box;}
+
+	 .dat-hang .modal-dathang .button-dong{transition: background .3s;cursor: pointer;text-transform: uppercase;font-weight: bold;color: #fff;float: left;padding: 10px 15px;background: #0369a4}
+	 .dat-hang .modal-dathang .button-dong i{margin-right: 5px}
+	 .dat-hang .modal-dathang .button-dong:hover{background: #0000FF}
+
+	 .dat-hang .modal-dathang .button-dt{transition: background .3s;cursor: pointer;text-transform: uppercase;font-weight: bold;color: #fff;float: right;padding: 10px 15px;background: #d73814}
+	 .dat-hang .modal-dathang .button-dt i{margin-right: 5px}
+	 .dat-hang .modal-dathang .button-dt:hover{background: #be0000}
+
+	 .dat-hang .modal-dathang .close-dt{cursor: pointer;float: right;}
+	 .dat-hang .modal-dathang .close-dt i{color: #ccc;cursor: pointer;}
+	 .dat-hang .modal-dathang .close-dt i:hover{color: #333}
+
+
+	 @media screen and (max-width: 768px){
+		 .dat-hang .modal-dathang{width: 95%;}
+		 .product-list .left h2 a{font-size: 20px;}
+	 }
+	 @media screen and (max-width: 530px){
+
+		 .product-list .left h2 a{font-size: 14px;}
+	 }
